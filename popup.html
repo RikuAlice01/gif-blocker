@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GIF Blocker</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="popup.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1>GIF Blocker</h1>
+
+    <div class="toggle-group">
+      <label class="switch">
+        <input type="checkbox" id="toggle-block">
+        <span class="slider"></span>
+      </label>
+      <span class="toggle-label">Enable GIF Blocking</span>
+    </div>
+
+    <h2>Whitelist Domains</h2>
+    
+    <div class="input-group">
+      <input type="text" id="domain-input" placeholder="example.com">
+      <button id="add-domain">Add</button>
+    </div>
+
+    <ul id="whitelist"></ul>
+  </div>
+</body>
+</html>
