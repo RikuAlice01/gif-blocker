@@ -1,4 +1,3 @@
-```markdown
 # GIF Blocker Extension
 
 A simple browser extension to block GIFs (and related ads) on websites. The extension provides a toggle to enable or disable GIF blocking and supports a whitelist to prevent blocking on specific domains.
